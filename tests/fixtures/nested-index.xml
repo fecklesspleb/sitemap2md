@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- a second level of nesting, plus a loop back to the top index -->
+  <sitemap><loc>https://docs.example.com/sitemaps/sitemap-blog.xml</loc></sitemap>
+  <sitemap><loc>https://docs.example.com/sitemap_index.xml</loc></sitemap>
+</sitemapindex>

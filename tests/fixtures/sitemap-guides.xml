@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://docs.example.com/guide/install/</loc>
+    <lastmod>2026-10-28T09:15:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <xhtml:link rel="alternate" hreflang="de" href="https://docs.example.com/de/guide/install/"/>
+  </url>
+  <url>
+    <loc>https://docs.example.com/guide/quickstart.html</loc>
+    <lastmod>2025-03-02</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.example.com/private/roadmap/</loc>
+    <lastmod>2026-10-01</lastmod>
+  </url>
+  <url>
+    <loc>https://docs.example.com/files/manual.pdf</loc>
+  </url>
+</urlset>

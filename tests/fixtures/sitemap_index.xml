@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>https://docs.example.com/sitemap-guides.xml</loc>
+    <lastmod>2026-10-30</lastmod>
+  </sitemap>
+  <sitemap>
+    <loc>https://docs.example.com/sitemaps/sitemap-api.xml.gz</loc>
+  </sitemap>
+  <sitemap>
+    <loc>/sitemaps/nested-index.xml</loc>
+  </sitemap>
+</sitemapindex>

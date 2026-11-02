@@ -1,0 +1,9 @@
+# Test robots.txt for docs.example.com
+User-agent: *
+Disallow: /private/
+Crawl-delay: 2
+
+User-agent: GreedyBot
+Disallow: /
+
+Sitemap: https://docs.example.com/sitemap_index.xml

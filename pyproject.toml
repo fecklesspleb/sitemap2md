@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sitemap2md"
+version = "0.1.0"
+description = "Turn a website's sitemap into clean Markdown files (and RAG-ready JSONL chunks), politely."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = ["trafilatura>=2.0,<3"]
+keywords = ["sitemap", "markdown", "rag", "llm", "crawler", "trafilatura"]
+
+[project.urls]
+Homepage = "https://github.com/fecklesspleb/sitemap2md"
+
+[project.scripts]
+sitemap2md = "sitemap2md:main"
+
+[tool.setuptools]
+py-modules = ["sitemap2md"]

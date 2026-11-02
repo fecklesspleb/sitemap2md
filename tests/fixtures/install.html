@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Installing Widget | Widget Docs</title>
+  <meta property="og:title" content="Installing Widget">
+  <meta name="description" content="How to install Widget on Linux, macOS and Windows.">
+</head>
+<body>
+  <header class="site-header">
+    <nav>
+      <a href="/">Widget Docs</a>
+      <a href="/guide/">Guides</a>
+      <a href="/api/">API reference</a>
+      <a href="/login">Sign in to the dashboard</a>
+    </nav>
+  </header>
+  <div class="layout">
+    <aside class="sidebar">
+      <ul>
+        <li><a href="/guide/install/">Install</a></li>
+        <li><a href="/guide/quickstart.html">Quickstart</a></li>
+        <li><a href="/guide/config/">Configuration</a></li>
+      </ul>
+    </aside>
+    <main>
+      <article>
+        <h1>Installing Widget</h1>
+        <p>Widget runs on Linux, macOS and Windows. It needs Python 3.10 or newer and about 40 MB of disk space.
+        The steps below install the command-line tool and the Python library together.</p>
+        <h2 id="requirements"><a href="#requirements">Requirements</a></h2>
+        <p>Check your Python version first. Widget is tested on Python 3.10, 3.11, 3.12 and 3.13, and older
+        versions are not supported because the parser relies on newer typing features.</p>
+        <ul>
+          <li>Python 3.10 or newer</li>
+          <li>pip 23 or newer</li>
+          <li>A C compiler is <strong>not</strong> required</li>
+        </ul>
+        <h2 id="install-with-pip"><a href="https://docs.example.com/guide/install/#install-with-pip">Install with pip</a></h2>
+        <p>Create a virtual environment so Widget's dependencies stay separate from the rest of your system,
+        then install the package from PyPI.</p>
+<pre><code>python -m venv .venv
+source .venv/bin/activate
+pip install widget
+</code></pre>
+        <p>Run <code>widget --version</code> to confirm the install worked. You should see the version number
+        printed on one line.</p>
+        <h3 id="upgrading">Upgrading</h3>
+        <p>To move to the newest release, run pip again with the upgrade flag. Your configuration file is kept.</p>
+<pre><code>pip install --upgrade widget
+</code></pre>
+        <h2 id="troubleshooting">Troubleshooting</h2>
+        <p>If the install fails with a permissions error you are probably outside the virtual environment.
+        Activate it again and repeat the command; never install Widget with sudo.</p>
+        <table>
+          <tr><th>Error</th><th>Fix</th></tr>
+          <tr><td>Permission denied</td><td>Activate the virtual environment</td></tr>
+          <tr><td>No matching distribution</td><td>Upgrade pip, then retry</td></tr>
+        </table>
+      </article>
+    </main>
+  </div>
+  <footer class="site-footer">
+    <p>Copyright 2026 Widget Inc. All rights reserved. Privacy policy. Cookie settings.</p>
+  </footer>
+</body>
+</html>
